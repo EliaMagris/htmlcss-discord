@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif;
 }
 
 header{
@@ -94,19 +94,28 @@ ul li{
 /* FINE HEADER */
 
 .no-right{
-    background-color: gold;
-    margin: 20px 0;
+    background-color: rgb(246,246,246);
+    margin: 100px 0;
  }
 
  .image{
-    flex-basis: 60%;
-    padding: 10px;
+    flex-basis: 70%;
     text-align: center;
+    padding: 50px;
  }
 
  .text{
-    flex-basis: 40%;
-    padding: 10px;
+    flex-basis: 30%;
+    padding: 46px;
+ }
+
+ .text h2{
+    font-size: 50px;
+    font-weight: bold;
+ }
+
+ .text p{
+    margin-top: 15px;
  }
 
  .reverse{
@@ -119,6 +128,7 @@ ul li{
 
  .column{
     flex-direction: column;
+    padding: 50px;
  }
 
  .column div{
@@ -126,7 +136,16 @@ ul li{
  }
 
  .little-title{
-    background-color: chocolate;
+    text-align: center;
+ }
+
+ .little-title h2{
+    font-size: 50px;
+ }
+
+ .little-title p{
+    font-size: 125%;
+    margin-top: 20px;
  }
 
  .image2{
@@ -136,3 +155,52 @@ ul li{
  .button2{
     background-color: rgb(170, 29, 116);
  }
+
+ .titolo-stellato{
+    text-align: center;
+ }
+
+ .titolo-stellato button{
+    width: 12%;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    padding: 1%;
+    background-color: rgb(142,161,225);
+    color: white;
+    margin: 25px;
+ }
+
+     /* FINE MAIN */
+
+     #social{
+        flex-basis: 32%;
+        background-color: red;
+     }
+    
+     #product{
+        flex-basis: 17%;
+        background-color: cornflowerblue;
+     }
+    
+     #company{
+        flex-basis: 17%;
+        background-color: red;
+     }
+    
+     #resources{
+        flex-basis: 17%;
+        background-color: cornflowerblue;
+     }
+    
+     #standards{
+        flex-basis: 17%;
+        background-color: red;
+     }
+    
+     /* 2°PARTE DEL FOOTER */
+    
+     footer{
+        margin-top: 20px;
+     }
+    
