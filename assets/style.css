@@ -16,14 +16,17 @@ header{
     display: flex;
     width: 80%;
     margin: auto;
+}
+
+.justify-content{
     justify-content: space-between;
 }
 
 .small{
     flex-basis: 20%;
-    padding: 20px;
     display: flex;
     justify-content: center;
+    padding: 20px;
 }
 
 .small button{
@@ -38,13 +41,14 @@ header{
     flex-basis: 40%;
 }
 
-ul {
+#main-nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    padding: 15px;
 }
 
 ul li{
-    padding: 20px;
+    padding: 15px;
     color: white;
     font-weight: bold;
 }
@@ -65,7 +69,6 @@ ul li{
  }
 
  .titolo-2button p{
-    font-weight: bold;
     color: white;
     font-size: 1.5rem;
     padding: 45px 45px 25px 45px;
@@ -81,7 +84,7 @@ ul li{
 }
  
 .titolo-2button  #open-discord-browser{
-    width: 20%;
+    width: 22%;
     font-weight: bold;
     border-radius: 20px;
     border: none;
@@ -95,7 +98,7 @@ ul li{
 
 .no-right{
     background-color: rgb(246,246,246);
-    margin: 100px 0;
+    margin-top: 100px 0;
  }
 
  .image{
@@ -116,13 +119,13 @@ ul li{
 
  .text p{
     margin-top: 15px;
+    line-height: 23px;
  }
 
  .reverse{
     display: flex;
     width: 80%;
     margin: auto;
-    justify-content: space-between;
     flex-direction: row-reverse;
  }
 
@@ -171,36 +174,78 @@ ul li{
     margin: 25px;
  }
 
-     /* FINE MAIN */
-
-     #social{
+    /* FINE MAIN */
+#social{
         flex-basis: 32%;
-        background-color: red;
-     }
-    
-     #product{
+        padding: 15px;
+}
+
+#social img{
+    width: 6%;
+}
+ 
+#social h2{
+    font-size: 2.8rem;
+    margin-bottom: 15%;
+}
+
+#language-list{
+   display: inline-block;
+    color: white;
+    line-height: 50%;
+}
+
+#product{
         flex-basis: 17%;
-        background-color: cornflowerblue;
-     }
+}
     
-     #company{
+#company{
         flex-basis: 17%;
-        background-color: red;
-     }
+}
     
-     #resources{
+#resources{
         flex-basis: 17%;
-        background-color: cornflowerblue;
-     }
+}
     
-     #standards{
-        flex-basis: 17%;
-        background-color: red;
-     }
+#standards{
+        flex-basis: 17%;      
+}
     
-     /* 2°PARTE DEL FOOTER */
-    
-     footer{
+footer{
         margin-top: 20px;
-     }
+        background-color: rgb(35,39,42);
+        padding: 5%;
+}
     
+.social-tag{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    padding: 20px 0;
+    font-size: 1.5rem;
+}
+
+.br-line{
+    border-top: 1px solid rgb(111,134,213);
+    padding: 35px 0;
+}
+
+.logo-finale{
+    flex-basis: 20%;
+}
+
+.logo-finale button{
+    width: 30%;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    padding: 8px;
+    background-color: rgb(111,134,213);
+    color: white;
+}
+
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
